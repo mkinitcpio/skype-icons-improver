@@ -8,24 +8,24 @@ const main = async () => {
 
     if (isExist(pathToSkype)) {
         await installDependencies();
-        console.log('Installation complete!\n----');
+        console.log('The installation is complete!\n----');
 
         await extractSkypeApplication();
-        console.log('Extract complete!');
+        console.log('Unpacking complete!');
     } else {
         throw new Error("'Skype for linux' applicaton does not exist");
     }
 }
 
 const installDependencies = () => new Promise((resolve, reject) => {
-    console.log('Install dependencies...');
+    console.log('Installing dependencies...');
     const npm = spawn('npm', ['i']);
     npm.on('error', reject);
     npm.on('close', resolve);
 });
 
 const extractSkypeApplication = () => new Promise((resolve, reject) => {
-    console.log('Extract skype package...');
+    console.log('Unpacking skype packages...');
     const npm = spawn('npm', ['run', 'extract']);
     npm.stdout.on('error', reject);
     npm.stdout.on('close', resolve);

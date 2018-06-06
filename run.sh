@@ -1,6 +1,6 @@
 #!/bin/bash
 
-notInstalled="nodejs does not installed."
+notInstalled="nodejs is not installed."
 
 if [ -x "$(command -v node)" ]; 
 then 
