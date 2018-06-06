@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "extract": "asar extract /usr/share/skypeforlinux/resources/app.asar ./extractedCode",
+        "pack": "asar pack ./extractedCode ./packedApp/app.asar"
+    },
+    "devDependencies": {
+        "asar": "^0.14.3"
+    }
+}
