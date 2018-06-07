@@ -1,6 +1,6 @@
-# What is skypeIconsImprover?
+# What is skype-icons-improver?
   As we know 'Skype for linux' - the coolest piece of ~~shi~~ code that based on electron and pack most of their resources into asar packages.
-  So, we can not change tray icons without unpacking packages. skypeIconsImprover can solve this problem.
+  So, we can not change tray icons without unpacking packages. skype-icons-improver can solve this problem.
 ## Little dependencies...
   **nodejs**...
 
