@@ -9,6 +9,8 @@ Because [asar](https://www.npmjs.com/package/asar) - npm package that pack elect
 In the future I will try to get rid of nodejs.
 ## Executing
  `sh ./run.sh`
+## Result
+![](https://pp.userapi.com/c845521/v845521310/766d4/YcFtPcHAUxY.jpg)
 ## Todo
 - Code refactoring
 - Get rid of nodejs
