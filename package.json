@@ -1,9 +1,11 @@
 {
+    "name":"skype-icon-improver", 
+    "version": "1.0.0",
     "scripts": {
-        "extract": "asar extract /usr/share/skypeforlinux/resources/app.asar ./extractedCode",
-        "pack": "asar pack ./extractedCode ./packedApp/app.asar"
+        "extract": "asar extract /usr/share/skypeforlinux/resources/app.asar ./tmp/extractedCode",
+        "pack": "asar pack ./tmp/extractedCode ./tmp/packedApp/app.asar"
     },
     "devDependencies": {
-        "asar": "^0.14.3"
+        "asar": "0.14.3"
     }
 }
